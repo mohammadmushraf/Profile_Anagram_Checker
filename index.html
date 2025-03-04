@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card & Anagram Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Profile Card -->
+    <div class="profile-card">
+        <img src="myphoto.png" alt="Profile Picture" class="profile-pic">
+        <h2>Mohammad Mushraf</h2>
+        <p class="designation">Your Designation</p>
+        <p class="bio">A short bio about yourself.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <!-- Anagram Checker -->
+    <div class="anagram-checker">
+        <h2>Anagram Checker</h2>
+        <input type="text" id="word1" placeholder="Enter first word">
+        <input type="text" id="word2" placeholder="Enter second word">
+        <button onclick="checkAnagram()">Check</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- Link JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>

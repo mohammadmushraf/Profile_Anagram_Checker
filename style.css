@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card, .anagram-checker {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border: 3px solid #ddd;
+    padding: 5px;
+    background-color: white;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.designation {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Anagram Checker Styles */
+.anagram-checker input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.anagram-checker button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.anagram-checker button:hover {
+    background: #0056b3;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
