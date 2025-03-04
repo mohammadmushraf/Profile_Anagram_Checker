@@ -8,7 +8,7 @@ function checkAnagram() {
     let word2 = document.getElementById("word2").value.toLowerCase().replace(/\s/g, '');
 
     if (!word1 || !word2) {
-        document.getElementById("result").innerText = "❌ Please enter both words.";
+        document.getElementById("result").innerText = " Please enter both words.";
         return;
     }
 
