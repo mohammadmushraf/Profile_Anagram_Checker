@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Attach event listener to the button when the page loads
+    
     document.querySelector("button").addEventListener("click", checkAnagram);
 });
 
